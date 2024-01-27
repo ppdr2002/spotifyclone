@@ -1,0 +1,254 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    width: 350px;
+    border-radius: 1rem;
+    background-color: black;
+
+}
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    background-color: #232323;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
+    padding: 0.25rem 0.75rem;
+}
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+.nav-option a{
+    font-size: 1rem;
+}
+.lib{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+.badge{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 0.20rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 2;
+}
+.sticky-nav-icons i{
+    font-size: 1.5rem;
+}
+.sticky-nav-icons{
+    margin-left:0.5rem ;
+}
+.sticky-nav-optons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items{
+    margin-right: 1rem;
+}
+
+@media (max-width :1000px) {
+    .hide{
+        display: none;
+    }
+}
+.card{
+    background-color: #232323;
+    width: 150px;
+    border: 2px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 4px solid white;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1px;
+
+}
+.card img{
+    width: 100%;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line{
+    height: 70%;
+    width: 70%;
+    border-top: 1px solid white;
+    opacity: 0.7;
+}
+.album{
+    width: 25%;
+}
+.player{
+    width: 50%;
+    background-color: black;
+}
+.controller{
+    width: 25%;
+}
+.player-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-control i{
+    opacity: 0.7;
+    margin-right: 1.75rem;
+
+}
+.player-control i:hover{
+    opacity: 1;
+}
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.priyanka{
+    width: 70%;
+    appearance: none;
+    cursor: pointer;
+}
+.priyanka::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.25rem;
+}
+.controller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controller i{
+    opacity: 0.7;
+    margin-left: 1.55rem;
+}
+.rahul{
+    width: 25%;
+    appearance: none;
+    margin-left: 0.75rem;
+}
+.rahul::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.25rem;
+
+}
+.rahul::-webkit-slider-thumb{
+    margin-top: -6px;
+}
+.album img{
+    height: 3.3rem;
+    width: 3.3rem;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+}
